@@ -1,0 +1,52 @@
+﻿Build started 17/2/2014 12:37:56 AM.
+     1>Project "C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\openglprogram\openglprogram.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\openglprogram.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\freetype-2.3.5-1\include\freetype2" /I"..\glew-1.9.0\include" /I"..\glm-0.9.5.0\glm" /I"..\freetype-2.3.5-1\include" /I"..\freeglut-2.8.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DiceGame.cpp ParticleEmitter.cpp Skybox.cpp Terrain.cpp main.cpp
+         DiceGame.cpp
+         ParticleEmitter.cpp
+         Skybox.cpp
+         Terrain.cpp
+     1>Terrain.cpp(176): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Terrain.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Terrain.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Terrain.cpp(253): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Terrain.cpp(253): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Terrain.cpp(223): warning C4101: 'green2' : unreferenced local variable
+     1>Terrain.cpp(222): warning C4101: 'red2' : unreferenced local variable
+     1>Terrain.cpp(217): warning C4101: 'red' : unreferenced local variable
+     1>Terrain.cpp(219): warning C4101: 'blue' : unreferenced local variable
+     1>Terrain.cpp(218): warning C4101: 'green' : unreferenced local variable
+     1>Terrain.cpp(224): warning C4101: 'blue2' : unreferenced local variable
+     1>Terrain.cpp(293): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>Terrain.cpp(293): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Release\openglprogram.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\freetype-2.3.5-1\lib" /LIBPATH:"..\freeglut-2.8.1\lib" /LIBPATH:"..\glew-1.9.0\lib" freetype.lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib /MANIFEST /ManifestFile:"Release\openglprogram.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Release\openglprogram.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Release\openglprogram.lib" /MACHINE:X86 Release\Camera.obj
+         Release\Cube.obj
+         Release\DiceGame.obj
+         Release\FreeType.obj
+         Release\GridBase.obj
+         Release\ImageLoader.obj
+         Release\main.obj
+         Release\ParticleEmitter.obj
+         Release\Player.obj
+         Release\Skybox.obj
+         Release\Terrain.obj
+         Generating code
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\cube.cpp(554): warning C4789: destination of memory copy is too small
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\dicegame.cpp(388): warning C4789: destination of memory copy is too small
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\dicegame.cpp(213): warning C4789: destination of memory copy is too small
+         Finished generating code
+         openglprogram.vcxproj -> C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Release\openglprogram.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Release\openglprogram.exe;#1" /manifest Release\openglprogram.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\openglprogram.unsuccessfulbuild".
+         Touching "Release\openglprogram.lastbuildstate".
+     1>Done Building Project "C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\openglprogram\openglprogram.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.52

@@ -1,0 +1,44 @@
+﻿Build started 15/2/2014 12:49:05 AM.
+     1>Project "C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\openglprogram\openglprogram.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\openglprogram.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\glew-1.9.0\include" /I"..\glm-0.9.5.0\glm" /I"..\freetype-2.3.5-1\include" /I"..\freetype-2.3.5-1\include\freetype2" /I"..\freeglut-2.8.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Terrain.cpp
+         Terrain.cpp
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(176): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(253): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(253): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(223): warning C4101: 'green2' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(222): warning C4101: 'red2' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(217): warning C4101: 'red' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(219): warning C4101: 'blue' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(218): warning C4101: 'green' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(224): warning C4101: 'blue2' : unreferenced local variable
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(293): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\ong ding chao\dropbox\grpg\grpg13 assignment 1 codebase\grpg13 assignment 1 codebase\openglshadertemplate\openglprogram\terrain.cpp(293): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Debug\openglprogram.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\freetype-2.3.5-1\lib" /LIBPATH:"..\freeglut-2.8.1\lib" /LIBPATH:"..\glew-1.9.0\lib" freetype.lib glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\openglprogram.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Debug\openglprogram.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Debug\openglprogram.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Cube.obj
+         Debug\DiceGame.obj
+         Debug\FreeType.obj
+         Debug\GridBase.obj
+         Debug\ImageLoader.obj
+         Debug\main.obj
+         Debug\ParticleEmitter.obj
+         Debug\Player.obj
+         Debug\Skybox.obj
+         Debug\Terrain.obj
+     1>Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         openglprogram.vcxproj -> C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Debug\openglprogram.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\Debug\openglprogram.exe;#1" /manifest Debug\openglprogram.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\openglprogram.unsuccessfulbuild".
+         Touching "Debug\openglprogram.lastbuildstate".
+     1>Done Building Project "C:\Users\Ong Ding Chao\Dropbox\GRPG\GRPG13 Assignment 1 Codebase\GRPG13 Assignment 1 Codebase\openglShaderTemplate\openglprogram\openglprogram.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86
